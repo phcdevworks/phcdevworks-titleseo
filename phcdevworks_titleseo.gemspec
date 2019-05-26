@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ["PHCDevworks"]
   spec.email       = ["developers@phcdevworks.com"]
   spec.homepage    = "https://phcdevworks.com/"
-  spec.summary     = "PHCDevworks - Helpers - PHCTitleSEO"
+  spec.summary     = "PHCDevworks - Helpers - Title/SEO"
   spec.description = "Rails view helpers making page headings, taglines, seo and title tags easier to manage and standardize view coding process."
   spec.license     = "MIT"
 
