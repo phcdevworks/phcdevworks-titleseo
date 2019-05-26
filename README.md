@@ -1,10 +1,10 @@
-### PHCDevworks-TitleSEO for Rails6 (Page SEO, Titles & Title Tags) Documentation
+### PHCDevworks-TitleSEO for Rails6 (Page SEO, Titles & Title Tags)
 
 PHCDevworks Title/SEO Rails6 engine with helpers for page headings, taglines, SEO and title tags.
 
 * A dynamic way to add different page headings, taglines, SEO and title tags.
-* Setup in seconds with only one line of code in the application_helper file.
-* Save time and keep your rails projects manageable, tidy and secure.
+* Setup in seconds with only one line of code in the application_controller file.
+* Save time and keep your rails projects manageable, multiple views tidy and secure.
 
 #### Step 1 - Add PHCDevworks-TitleSEO to your gemfile  
 
