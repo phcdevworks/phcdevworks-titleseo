@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email       = ["developers@phcdevworks.com"]
   spec.homepage    = "https://phcdevworks.com/"
   spec.summary     = "PHCDevworks - Helpers - PHCTitleSEO"
-  spec.description = "Rails view helpers for page headings, taglines, seo and title tags."
+  spec.description = "Rails view helpers making page headings, taglines, seo and title tags easier to manage and standardize view coding process."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
