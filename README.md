@@ -1,4 +1,4 @@
-### PHCDevworks-TitleSEO for Rails6 (Page SEO, Titles & Title Tags)
+### PHCDevworks Title/SEO for Rails6 (Page SEO, Titles & Title Tags)
 
 PHCDevworks Title/SEO Rails6 engine with helpers for page headings, taglines, SEO and title tags.
 
