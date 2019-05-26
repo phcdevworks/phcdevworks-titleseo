@@ -1,0 +1,21 @@
+<% phc_title "Example Title" %>
+<% phc_title_tagline "Example Tagline" %>
+
+<% phc_seo_title "Example SEO Page Title" %>
+<% phc_seo_description "Example SEO Page Description" %>
+
+<% phc_breadcrumb_one "Example News" %>
+<% phc_breadcrumb_two "Article" %>
+<% phc_breadcrumb_three "Index" %>
+
+<title><%= yield(:phc_seo_title) %></title>
+<meta name="description" content=<%= yield(:phc_seo_description) %>"">
+
+<ul class="breadcrumb">
+<li><%= yield(:phc_breadcrumb_one) %></li>
+<li><%= yield(:phc_breadcrumb_two) %></li>
+<li class="active"><%= yield(:phc_breadcrumb_three) %></li>
+</ulol>
+
+<h1><%= yield(:phc_title) %></h1>
+<span><%= yield(:phc_title_tagline) %></span>
