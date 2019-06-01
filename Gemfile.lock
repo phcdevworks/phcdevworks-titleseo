@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcdevworks_titleseo (0.2.0)
+    phcdevworks_titleseo (0.3.0)
       rails (~> 6.0.0.rc1)
       sassc-rails (~> 2.1)
 
