@@ -1,11 +1,11 @@
 module PhcdevworksTitleseo
   class Engine < ::Rails::Engine
 
-    # Load Asset Dependencies
-    require "sassc-rails"
+    # Theme Dependencies
+    require "phcthemes_admin_panel_pack"
 
     # Plugin Namespace
-    isolate_namespace PhcdevworksTitleseo
+    isolate_namespace PhcdevworksActiveMenus
 
   end
 end

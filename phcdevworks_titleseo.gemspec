@@ -26,8 +26,8 @@ Gem::Specification.new do |spec|
   # Main Dependencies
   spec.add_dependency "rails", "~> 6.0.0.rc1"
 
-  # Asset Dependencies
-  spec.add_dependency 'sassc-rails', '~> 2.1'
+  # Theme Dependencies
+  spec.add_dependency "phcthemes_admin_panel_pack", "~> 0.5.0"
 
   # Development Dependencies
   spec.add_development_dependency "sqlite3"
