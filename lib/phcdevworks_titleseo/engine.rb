@@ -6,7 +6,7 @@ module PhcdevworksTitleseo
     require "phcthemes_web_theme_pack"
 
     # Plugin Namespace
-    isolate_namespace PhcdevworksActiveMenus
+    isolate_namespace PhcdevworksTitleseo
 
   end
 end

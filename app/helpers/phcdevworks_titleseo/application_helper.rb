@@ -32,5 +32,14 @@ module PhcdevworksTitleseo
       content_for :phc_breadcrumb_three, phc_page_breadcrumb_three.to_s
     end
 
+    # Helpers for BreadCrumbs
+    def phc_button_one(phc_button_one)
+      content_for :phc_button_one, phc_button_one.to_s
+    end
+
+    def phc_button_two(phc_button_two)
+      content_for :phc_button_two, phc_button_two.to_s
+    end
+
   end
 end
