@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    phcdevworks_titleseo (0.12.0)
-      phcthemes_admin_panel_pack (~> 0.10.0)
+    phcdevworks_titleseo (0.14.0)
+      phcthemes_admin_panel_pack (~> 0.13.0)
       phcthemes_web_theme_pack (~> 0.5.0)
       rails (~> 6.0.0.rc1)
 
@@ -104,12 +104,9 @@ GEM
     nio4r (2.4.0)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
-    phcthemes_admin_panel_pack (0.10.0)
+    phcthemes_admin_panel_pack (0.13.0)
       coffee-rails (~> 5.0)
       gravtastic (~> 3.2)
-      jquery-migrate-rails (~> 1.2)
-      jquery-rails (~> 4.3)
-      jquery-ui-rails (~> 6.0)
       rails (~> 6.0.0.rc1)
       sassc-rails (~> 2.1)
       turbolinks (~> 5.2)
