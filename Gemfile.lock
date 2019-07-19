@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    phcdevworks_titleseo (0.17.0)
+    phcdevworks_titleseo (0.18.0)
       phcthemes_admin_panel_pack (~> 0.15.0)
-      phcthemes_web_theme_pack (~> 0.7.0)
+      phcthemes_web_theme_pack (~> 0.9.0)
       rails (~> 6.0.0.rc1)
 
 GEM
@@ -114,7 +114,7 @@ GEM
       turbolinks (~> 5.2)
       uglifier (~> 4.1)
       webpacker (~> 4.0)
-    phcthemes_web_theme_pack (0.7.0)
+    phcthemes_web_theme_pack (0.9.0)
       coffee-rails (~> 5.0)
       gravtastic (~> 3.2)
       jquery-migrate-rails (~> 1.2)
