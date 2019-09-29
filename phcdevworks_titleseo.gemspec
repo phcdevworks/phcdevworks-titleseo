@@ -12,10 +12,10 @@ Gem::Specification.new do |spec|
   spec.description = "Rails view helpers making page headings, taglines, seo and title tags easier to manage and standardize view coding process."
   spec.license     = "MIT"
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
+  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   #if spec.respond_to?(:metadata)
-  #spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  #spec.metadata["allowed_push_host"] = "TODO: Set to "http://mygemserver.com""
   #else
   #raise "RubyGems 2.0 or newer is required to protect against " \
   #"public gem pushes."
@@ -27,10 +27,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", "~> 6.0"
 
   # Theme Dependencies
-  spec.add_dependency "phcthemes_admin_panel_pack", "~> 1.0"
-  spec.add_dependency "phcthemes_web_theme_pack", "~> 1.0"
+  spec.add_dependency "phcthemes_admin_panel_pack", "~> 1.2.3"
+  spec.add_dependency "phcthemes_web_theme_pack", "~> 1.1.0"
 
   # Development Dependencies
-  spec.add_development_dependency "sqlite3", "~> 1.4", ">= 1.4.1"
+  spec.add_development_dependency "sqlite3", "~> 1.4"
 
 end
