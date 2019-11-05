@@ -24,11 +24,11 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   # Main Dependencies
-  spec.add_dependency "rails", "~> 6.0"
+  spec.add_dependency "rails", "~> 6.0", ">= 6.0.1"
 
   # Theme Dependencies
-  spec.add_dependency "phcthemes_admin_panel_pack", "~> 1.2.3"
-  spec.add_dependency "phcthemes_web_theme_pack", "~> 1.1.0"
+  spec.add_dependency "phcthemes_admin_panel_pack", "~> 1.2.6"
+  spec.add_dependency "phcthemes_web_theme_pack", "~> 1.1.1"
 
   # Development Dependencies
   spec.add_development_dependency "sqlite3", "~> 1.4"
