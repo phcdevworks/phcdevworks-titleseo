@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcdevworks_titleseo (1.1.1)
+    phcdevworks_titleseo (1.1.0)
       phcthemes_admin_panel_pack (~> 1.6)
       phcthemes_web_theme_pack (~> 1.6)
       rails (~> 6.0, >= 6.0.2.2)
