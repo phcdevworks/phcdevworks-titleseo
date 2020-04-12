@@ -78,7 +78,7 @@ module PhcdevworksTitleseo
         def phc_button_one(phc_page_button_one)
             content_for :phc_button_one, phc_page_button_one.to_s
         end
-        
+
         def phc_button_two(phc_page_button_two)
             content_for :phc_button_two, phc_page_button_two.to_s
         end
