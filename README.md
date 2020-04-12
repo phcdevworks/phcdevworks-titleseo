@@ -37,7 +37,7 @@ Add the line of code below into your app/controllers/application_controller.rb (
 	<% phc_seo_open_graph_description "" %>  
 	<% phc_seo_open_graph_image "" %>  
   
-**Page SEO Open Twitter Meta Tags** - At the top of your layout view file add the hidden lines of code below. 
+**Page SEO Twitter Meta Tags** - At the top of your layout view file add the hidden lines of code below. 
 
 	<% phc_seo_twitter_type "" %>  
 	<% phc_seo_twitter_url "" %>  
@@ -51,11 +51,7 @@ Add the line of code below into your app/controllers/application_controller.rb (
 	<% phc_breadcrumb_one "Example News" %>
 	<% phc_breadcrumb_two "Article" %>
 	<% phc_breadcrumb_three "Index" %>
-
-
-
-
-
+  
 #### Add Titles to a Page  
 Add the code below in your views whenever page titles are required (can be used unlimited number of times).  
 
