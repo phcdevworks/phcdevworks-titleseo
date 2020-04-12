@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phcdevworks_titleseo (1.1.0)
+    phcdevworks_titleseo (2.0.0)
       phcthemes_admin_panel_pack (~> 1.6)
       phcthemes_web_theme_pack (~> 1.6)
       rails (~> 6.0, >= 6.0.2.2)
@@ -88,7 +88,7 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    loofah (2.4.0)
+    loofah (2.5.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -176,7 +176,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.6)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
