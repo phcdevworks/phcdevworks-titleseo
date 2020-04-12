@@ -1,8 +1,9 @@
 ### PHCDevworks Title/SEO for Rails6 (Page SEO, Titles & Title Tags)
 
-PHCDevworks Title/SEO Rails6 engine with helpers for page headings, taglines, SEO and title tags.
+PHCDevworks Title/SEO Rails6 engine with helpers for page headings, taglines, SEO, Social Media and title tags.
 
-* A dynamic way to add different page headings, taglines, SEO and title tags.
+* A dynamic way to add different page headings, taglines, SEO and title tags to your layout file.
+* Standardize a template for your serach engine marketing and optimization efforts.
 * Setup in seconds with only one line of code in the application_controller file.
 * Save time and keep your rails projects manageable, multiple views tidy and secure.
 
@@ -46,8 +47,16 @@ Add the code below to your views whenever page subtitles are required (can also 
 #### Add SEO Tags to your Layout file
 
 	<title><%= yield(:phc_seo_title) %></title>
-	<meta name="description" content=<%= yield(:phc_seo_description) %>"">
-
+	<meta name="description" content="<%= yield(:phc_seo_description) %>">
+  
+#### Add Open Graph and Facebook Social Media Tags  
+  
+	<meta property="og:type" content="<%= yield(:phc_og_open_graph_type) %>">  
+	<meta property="og:url" content="<%= yield(:phc_og_open_graph_url) %>">  
+	<meta property="og:title" content="<%= yield(:phc_og_open_graph_title) %>">  
+	<meta property="og:description" content="<%= yield(phc_og_open_graph_description) %>">  
+	<meta property="og:image" content="<%= yield(:phc_og_open_graph_image) %>">  
+  
 #### Add static BreadCrumbs to your Pagefile
 
 	<ol class="breadcrumb">
@@ -55,3 +64,4 @@ Add the code below to your views whenever page subtitles are required (can also 
 		<li><%= yield(:phc_breadcrumb_two) %></li>
 		<li class="active"><%= yield(:phc_breadcrumb_three) %></li>
 	</ol>
+

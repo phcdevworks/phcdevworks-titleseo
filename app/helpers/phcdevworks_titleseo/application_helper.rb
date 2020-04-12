@@ -1,13 +1,34 @@
 module PhcdevworksTitleseo
   module ApplicationHelper
 
-    # Helpers for Page SEO
+    # Helpers for Page SEO Meta Tags
     def phc_seo_title(phc_page_seo_title)
       content_for :phc_seo_title, phc_page_seo_title.to_s
     end
 
     def phc_seo_description(phc_page_seo_description)
       content_for :phc_seo_description, phc_page_seo_description.to_s
+    end
+
+    # Helpers Open Graph and Facebook Meta Tags
+    def phc_og_open_graph_type(phc_page_og_open_graph_type)
+      content_for :phc_og_open_graph_type, phc_page_og_open_graph_type.to_s
+    end
+
+    def phc_og_open_graph_url(phc_og_open_graph_url)
+      content_for :phc_og_open_graph_url, phc_og_open_graph_url.to_s
+    end
+
+    def phc_og_open_graph_title(phc_page_og_open_graph_title)
+      content_for :phc_og_open_graph_title, phc_page_og_open_graph_title.to_s
+    end
+
+    def phc_og_open_graph_description(phc_page_og_open_graph_description)
+      content_for :phc_og_open_graph_description, phc_page_og_open_graph_description.to_s
+    end
+
+    def phc_og_open_graph_image(phc_page_og_open_graph_image)
+      content_for :phc_og_open_graph_image, phc_page_og_open_graph_image.to_s
     end
 
     # Helpers for Page Title & Sub Title
