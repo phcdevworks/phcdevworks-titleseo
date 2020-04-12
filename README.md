@@ -18,21 +18,43 @@ Add the line of code below into your app/controllers/application_controller.rb (
 	helper PhcdevworksTitleseo::Engine.helpers
 
 #### Step 3 - Provide values for Titles & Subtitles
+  
 **Page Titles** - At the top of the page, view add the hidden lines of code below.
 
 	<% phc_title "Example Title" %>
 	<% phc_title_tagline "Example Tagline" %>
-
-**Page SEO** - At the top of your layout view file add the hidden lines of code below.
+  
+**Page SEO Normail Meta Tags** - At the top of your layout view file add the hidden lines of code below.
 
 	<% phc_seo_title "Example SEO Page Title" %>
 	<% phc_seo_description "Example SEO Page Description" %>
+  
+**Page SEO Open Graph/Facebook Meta Tags** - At the top of your layout view file add the hidden lines of code below.  
+  
+	<% phc_seo_open_graph_type "" %>  
+	<% phc_seo_open_graph_url "" %>  
+	<% phc_seo_open_graph_title "" %>  
+	<% phc_seo_open_graph_description "" %>  
+	<% phc_seo_open_graph_image "" %>  
+  
+**Page SEO Open Twitter Meta Tags** - At the top of your layout view file add the hidden lines of code below. 
 
-**Page Static BreadCrumbs** - At the top of the page, view add the hidden lines of code below.
+	<% phc_seo_twitter_type "" %>  
+	<% phc_seo_twitter_url "" %>  
+	<% phc_seo_twitter_title "" %>  
+	<% phc_seo_twitter_description "" %>  
+	<% phc_seo_twitter_image "" %>  
+
+
+**Page BreadCrumbs** - At the top of the page, view add the hidden lines of code below.
 
 	<% phc_breadcrumb_one "Example News" %>
 	<% phc_breadcrumb_two "Article" %>
 	<% phc_breadcrumb_three "Index" %>
+
+
+
+
 
 #### Add Titles to a Page  
 Add the code below in your views whenever page titles are required (can be used unlimited number of times).  
@@ -51,11 +73,11 @@ Add the code below to your views whenever page subtitles are required (can also 
   
 #### Add Open Graph and Facebook Social Media Tags  
   
-	<meta property="og:type" content="<%= yield(:phc_og_open_graph_type) %>">  
-	<meta property="og:url" content="<%= yield(:phc_og_open_graph_url) %>">  
-	<meta property="og:title" content="<%= yield(:phc_og_open_graph_title) %>">  
-	<meta property="og:description" content="<%= yield(phc_og_open_graph_description) %>">  
-	<meta property="og:image" content="<%= yield(:phc_og_open_graph_image) %>">  
+	<meta property="og:type" content="<%= yield(:phc_seo_open_graph_type) %>">  
+	<meta property="og:url" content="<%= yield(:phc_seo_open_graph_url) %>">  
+	<meta property="og:title" content="<%= yield(:phc_seo_open_graph_title) %>">  
+	<meta property="og:description" content="<%= yield(phc_seo_open_graph_description) %>">  
+	<meta property="og:image" content="<%= yield(:phc_seo_open_graph_image) %>">  
   
 #### Add static BreadCrumbs to your Pagefile
 
