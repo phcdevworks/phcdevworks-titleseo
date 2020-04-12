@@ -67,13 +67,21 @@ Add the code below to your views whenever page subtitles are required (can also 
 	<title><%= yield(:phc_seo_title) %></title>
 	<meta name="description" content="<%= yield(:phc_seo_description) %>">
   
-#### Add Open Graph and Facebook Social Media Tags  
+#### Add Open Graph and Facebook Social Media Tags to your Layout file  
   
 	<meta property="og:type" content="<%= yield(:phc_seo_open_graph_type) %>">  
 	<meta property="og:url" content="<%= yield(:phc_seo_open_graph_url) %>">  
 	<meta property="og:title" content="<%= yield(:phc_seo_open_graph_title) %>">  
 	<meta property="og:description" content="<%= yield(phc_seo_open_graph_description) %>">  
 	<meta property="og:image" content="<%= yield(:phc_seo_open_graph_image) %>">  
+  
+#### Add Twitter Media Tags to your Layout file  
+  
+	<meta property="twitter:card" content="<%= yield(:phc_seo_open_graph_type) %>">
+	<meta property="twitter:url" content="<%= yield(:phc_seo_open_graph_type) %>">
+	<meta property="twitter:title" content="<%= yield(:phc_seo_open_graph_type) %>">
+	<meta property="twitter:description" content="<%= yield(:phc_seo_open_graph_type) %>">
+	<meta property="twitter:image" content="<%= yield(:phc_seo_open_graph_type) %>">
   
 #### Add static BreadCrumbs to your Pagefile
 
