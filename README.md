@@ -77,11 +77,11 @@ Add the code below to your views whenever page subtitles are required (can also 
   
 #### Add Twitter Media Tags to your Layout file  
   
-	<meta property="twitter:card" content="<%= yield(:phc_seo_open_graph_type) %>">
-	<meta property="twitter:url" content="<%= yield(:phc_seo_open_graph_type) %>">
-	<meta property="twitter:title" content="<%= yield(:phc_seo_open_graph_type) %>">
-	<meta property="twitter:description" content="<%= yield(:phc_seo_open_graph_type) %>">
-	<meta property="twitter:image" content="<%= yield(:phc_seo_open_graph_type) %>">
+	<meta property="twitter:card" content="<%= yield(:phc_seo_twitter_type) %>">
+	<meta property="twitter:url" content="<%= yield(:phc_seo_twitter_url) %>">
+	<meta property="twitter:title" content="<%= yield(:phc_seo_twitter_title) %>">
+	<meta property="twitter:description" content="<%= yield(:phc_seo_twitter_description) %>">
+	<meta property="twitter:image" content="<%= yield(:phc_seo_twitter_image) %>">
   
 #### Add static BreadCrumbs to your Pagefile
 
