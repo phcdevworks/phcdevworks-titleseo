@@ -1,3 +1,3 @@
 module PhcdevworksTitleseo
-    VERSION = "2.1.0"
+    VERSION = "2.3.0"
 end
