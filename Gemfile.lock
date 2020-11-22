@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    phcdevworks_titleseo (3.1.1)
-      phcthemes_admin_panel_pack (~> 3.0)
-      phcthemes_web_theme_pack (~> 3.0)
+    phcdevworks_titleseo (3.1.2)
+      phcthemes_admin_panel_pack (~> 3.1)
+      phcthemes_web_theme_pack (~> 3.1)
       rails (~> 6.0, >= 6.0.3.4)
 
 GEM
@@ -74,7 +74,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.7)
     crass (1.0.6)
-    erubi (1.9.0)
+    erubi (1.10.0)
     execjs (2.7.0)
     ffi (1.13.1)
     globalid (0.4.2)
@@ -106,7 +106,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    phcthemes_admin_panel_pack (3.0.1)
+    phcthemes_admin_panel_pack (3.1.0)
       coffee-rails (~> 5.0)
       gravtastic (~> 3.2)
       inline_svg (~> 1.7)
@@ -117,7 +117,7 @@ GEM
       sassc-rails (~> 2.1)
       turbolinks (~> 5.2)
       uglifier (~> 4.2)
-    phcthemes_web_theme_pack (3.0.1)
+    phcthemes_web_theme_pack (3.1.0)
       coffee-rails (~> 5.0)
       gravtastic (~> 3.2)
       inline_svg (~> 1.7)
@@ -181,7 +181,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
